@@ -1,0 +1,264 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+			"http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<HTML>
+<HEAD>
+<TITLE>DeepSpaceBanana's Ice Material Breakdown</TITLE>
+<!--<link rel="stylesheet" type="text/css" href="TKWeb.css">-->
+<STYLE type="text/css"><!--
+H3 {	font-family: Helvetica, sans-serif;
+		font-size: 12pt; 
+		line-height: 14pt; 
+		font-weight: bold;
+		margin-left: 0pt;
+		margin-bottom: 0pt;
+	}
+
+P {	font-family: Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: light;
+   	line-height: 12pt; 
+   	margin-right: 0pt;
+	margin-left: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+   	}
+.gray66 { color: #666666;
+	 	}
+		
+body { background-color:#262D2F; margin:0px; }
+div.mainheading{top:10px;background-color:#000000; opacity:1.0; height:150px; width:100% ; margin:auto; border-style:solid; border-width:0px 0px 5px 0px; border-color:#13ADEE; z-index:2; }
+div.mainname{margin:auto;}
+
+
+H1.mainname{display: inline-block; float:none;margin:2px; text-align:center; padding: 0px;font-size:24pt;width:100%; font-family:sans-serif; color:white; text-decoration: none; }
+p.mainname{float:none;margin:auto; text-align:center; padding: 5px;font-size:12px; font-family:sans-serif; color:white; text-decoration: none; }
+p.description{float:none;margin:auto; text-align:left; padding: 5px;font-size:12px; font-family:sans-serif; color:white; text-decoration: none; }
+p.highlight{float:none;margin:auto; text-align:left; padding: 5px;font-size:12px; font-family:sans-serif; color:red; text-decoration: none; }
+p.imgtitle{float:none;margin:auto; padding: 5px;font-size:12px; font-family:sans-serif; color:white; text-decoration: none; }
+p.end{float:none;margin:auto; padding: 5px;font-size:12px; font-family:sans-serif; color:white; text-decoration: none;text-align:center; }
+
+H3.mainheading{display: inline-block; float:none;margin:auto;text-align:center; width:100%; padding: 25px;font-size:32px; font-family:sans-serif; color:#13ADEE; text-decoration: none;}
+H4.subheading{float:none;text-align:center; padding: 0px;font-size:26px; font-family:sans-serif; color:#13ADEE; text-decoration: none;}
+H4.minorheading{float:none;text-align:left; padding: 0px;font-size:18px; font-family:sans-serif; color:#13ADEE; text-decoration: none;}
+
+IMG.portrait{border-width:5px 5px 5px 5px; border-style:solid ;border-color:#13ADEE; border; margin-left:16px; }
+img.covershot{border-width:2px 2px 2px 2px; border-style:solid ;border-color:#13ADEE;}
+img.centered{margin-left:128px; }
+
+
+H1.bloglinkheading{text-align:center;color:white; font-size:36px;font-family:sans-serif; }
+a.bloglinkheading{text-align:center;color:white; font-size:36px;text-decoration:none; }
+div.blogindexlinks{display:inline-block;background-color:rgba(18,29,33,0.5);margin:5px; width:100% ;padding:5px; box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5); } 
+div.blogindexlinks:hover{display:inline-block;background-color:rgba(19,173,238,0.5);margin:5px; width:100% ;padding:5px; box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.5); }
+img.bloglinkimage{ width:100%;border-style:solid;border-width:2.5px;border-color:rgba(0,0,0,0.5);border-radius:15px;}
+div.bloglinkimage{ width:150pt;margin:auto;}
+
+div.projectscontainer{width:1024px;margin:auto;}
+div.subsection{margin:auto; padding:0px;width:1024px;}
+div.centered{margin-left:128px;} 
+div.teximagecombo{padding:auto;display:inline-block;} 
+div.block{padding:auto} 
+
+iframe.code{color:white;background-color:white ;} 
+-->
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff" BACKGROUND="../your_background_pattern.gif">
+
+	  <div class="mainheading">
+			<H3 class="mainheading">DeepSpaceBanana's Ice Material Breakdown</H3>
+			<BR>
+			<P class="description">
+			So i've been meaning to do this for a while, but unfortunately finding time was tricky, but I've managed to sneak in some free time in-between assignments to make this write-up. Now, Full
+			disclosure, I am no pro, this was a result of me researching/experimenting trying to get a result, lots of googling etc. So it may not be perfect, feel free to leave some feedback or any changes 
+			you may suggest. Anyway lets get started.
+
+			</P>
+	  </div>
+<BR>
+<BR>
+      
+	 <div class="subsection">
+		<!--<div class="centered">-->
+		<H4 class="subheading">Material Preview</H4>
+		<P class="description">Here is a preview of what the material looks like along with the entire material graph, if you'd rather not read through all my ramblings/explanation</P>
+		<P class="description">My goal with this project was to create a "Genereal Purpose" ice material. Something that could be tweaked with parameters to work decently for any kind of use.</P>
+		<A HREF="img/Shot_05.png"><img src="img/Shot_05.png" width="1024" alt="" border="0" class="portrait"></A></td>
+		<A HREF="img/IceShowcase_Gif.gif"><img src="img/IceShowcase_Gif.gif" width="1024" alt="" border="0" class="portrait"></A></td>
+		<A HREF="img/Opaque_Ice.png"><img src="img/Opaque_Ice.png" width="1024" alt="" border="0" class="portrait"></A></td>
+		<A HREF="img/ICe_Floor_Showcase.gif"><img src="img/ICe_Floor_Showcase.gif" width="512" alt="" border="0" class="portrait"></A></td>
+		<A HREF="img/Shader.jpg"><img src="img/Shader.jpg" width="512" alt="" border="0" class="portrait"></A></td>
+		<A HREF="img/FullGraph.JPG"><img src="img/FullGraph.JPG" width="1024" alt="" border="0" class="portrait"></A></td>
+		<!--</div>-->
+	</div>
+		<!-- Reference Images -->
+	<div class="subsection">
+		<!--<div class="centered">-->
+		<H4 class="subheading">Textures</H4>
+		<P class="mainname">This material makes use of 4-5 textures depending on whether you choose to add a baked normal map for a mesh, 3 of them will contain patterns in each channel and one will be a
+general purpose noisy normal map. I used Substance designer to generate these patterns and I thin I also found one or two wit on gogle. The images below show you how
+the textures are set up. </P>
+	<H4 class="minorheading">BubbleMask.tga</H4>
+		<A HREF="img/BubbleMask_BD.jpg"><img src="img/BubbleMask_BD.jpg" width="1024" alt="" border="0"</A>
+	<H4 class="minorheading">ColorMask-Crack-Roughness.tga</H4>
+		<A HREF="img/ColorMask-Crack-Roughness_BD.jpg"><img src="img/ColorMask-Crack-Roughness_BD.jpg" width="1024" alt="" border="0"></A>
+	<H4 class="minorheading">Subsurface-Height-Speckle.tga</H4>
+		<A HREF="img/Subsurface-Height-Speckle.jpg"><img src="img/Subsurface-Height-Speckle.jpg" width="1024" alt="" border="0"></A>
+	<H4 class="minorheading">NormalMap</H4>
+		<A HREF="img/Ice_Substance_BaseNormal.jpg"><img src="img/Ice_Substance_BaseNormal.jpg" width="220" alt="" border="0"></A>
+	</div>
+		<!-- LOOK DEV SECTION -->
+		<div class="subsection">
+		<H4 class="subheading">BumpOffset Node:</H4>
+		<table>
+		<tr>
+		<td><A HREF="img/BumpOffsetNode.JPG"><img src="img/BumpOffsetNode.JPG" width="400" alt="" border="0" class="portrait"></A></td>
+		<td><P class="description">This node in the UE4 Material Editor, basically helps us make use of parallax mapping, this is waht we use to fake the “depth” in this material. 
+The basic explanation of how it works is this, you feed it a Coordinate value, a height value and a height ratio value. The Height Value determines
+ the base or plane from which your heightratio is measured, so if you feed a height value 0 with a height ratio value of -1.0, pixels will appear
+ as though they are "under" the surface, where as if you have a height value of 0 and a height ratio value of 1.0, pixels will appear to bulge above
+ the surface  (This can look very bad unless you use subtle values). Here's the documentation page for the node:https://docs.unrealengine.com
+/latest/INT/Engine/Rendering/Materials/HowTo/BumpOffset/</P></td>
+		</tr>
+		</table>
+		</div>
+		
+		<!-- Lighting Section -->	
+		<div class="subsection">
+		<H4 class="subheading">Creating Masks for Surface Coloration</H4>
+		<P class="description">In this step, we are going to mix and match some of the textures we made to create some masks that we will use to control the shader’s coloration and expose some useful variables as parameters so that we can use it to tweak the shader’s appearance with Instances. You can see the network below:</P>
+		<P class="description">First we create a scalar parameter, “Master Tiling”, we will use this to control the global tiling value for the entire material.</P>
+		<A HREF="img/Master_Tiling_Parameter.JPG"><img src="img/Master_Tiling_Parameter.JPG" width="256" alt="" border="0" class="portrait"></A>
+		
+		<P class="description">1: Next we create the basic setup that will repeat for all the textures that we use in the shader, we set up a scalar parameter to control the tiling for each TextureSample and multiply it by the Global Tiling parameter , we also setup the bumpOffset Node and the values for it’s inputs to be use. </P>
+		
+		<A HREF="img/SurfaceColoration_Mask.JPG"><img src="img/SurfaceColoration_Mask.JPG" width="1024" alt="" border="0" class="portrait"></A>
+		
+		<P class="description">We do some basic value adjustments to each texture sample with a power node, we do this to create some variation in the masks as we will be re-using the same textures many times in the shader. WIth this network set up we have 3 mask outputs ready to be used (labeled in the image). We will make use of these later.</P>
+		</div>	
+		<!-- Shading Section -->
+		<div class="subsection">
+		<H4 class="subheading">Bubble,Cracks,Surface Masks</H4>
+		<P class="description">This part of the graph creates surface masks to control areas where the bubbles are visible. </P>
+		
+		<A HREF="img/Crack and SurfaceMasks.JPG"><img src="img/Crack and SurfaceMasks.JPG" width="1024" alt="" border="0" class="portrait"></A>
+		
+		<P class="description">In this section we are going to set up the the masks for the bubbles and surface cracks, see the node Graph below: </P>
+		<A HREF="img/BubbleMask.JPG"><img src="img/BubbleMask.JPG" width="1024" alt="" border="0" class="portrait"></A>
+		<P class="description"> In the graph above we repeat the process of setting up tiling parameters for the textures for each texturesample.</P>		
+		
+		<P class="description"> 
+1.) This will be the upper most layer of bubbles,we will sue the Blue Channel of the texture as that is where we stored the blobby bubble pattern.  We set a height ratio value of -0.2, so the bubbles appear just below the surface.
+</P>
+		<P class="description">2.) This section will be bubbles that are deeper inside the surface. FIrst we set up two scalar parameters and add it to the texture coordinate, this will let us add some offsets in the U and V directions to create some variation. Next we repeat the procedure for setting up tiling values,We set a higher tiling value to make the bubbles appear smaller, to help improve the fake depth effect, In the Bump offset node we set a heihgt ratio of -1.0.</P>
+		
+		<P class="description">We multiply the end result of this network with the an the inverted result of Mask_01 from the previous section. This is done so the bubbles are not visible if they are under the Opaque sections of the ice surface. The gif below shows what the result of this network looks like.</P>
+		
+		<A HREF="img/BubbleMask_GIF.gif"><img src="img/BubbleMask_GIF.gif" width="256" alt="" border="0" class="portrait"></A>
+		
+		<!-- Material Roughness Subsection -->
+		
+		<H4 class="subheading">Material Roughness</H4>
+		<P class="description">This section of the graph deals with how we set up the roughness input for the material, we do the same process as before and set up the tiling properties for the texture with the speckle pattern in the Blue channel, we use this as the mask to Lerp between a min an max roughness value. We expose these values as parameters so they can be tweaked. Finally we do a final lerp with the crack pattern mask from Mask_01, this is to give the cracked areas a different roughness than the rest of the surface. </P>
+		<A HREF="img/Roughness_Graph.PNG"><img src="img/Roughness_Graph.PNG" width="1024" alt="" border="0" class="portrait"></A>
+		
+		<P class="description">This will serve as the roughness output for the material, if we preview it, it will look something like this:</P>
+		<A HREF="img/Roughness_Output.gif"><img src="img/Roughness_Output.gif" width="256" alt="" border="0" class="portrait"></A>
+		</div>
+		
+	<!-- Opacity / Subsurface Masking Section -->
+			
+	<div class="subsection">
+		<H4 class="subheading">Opacity/Subsurface Masking</H4>
+		
+		<H4 class="minorheading">Part 1:</H4>
+		<p class="description">In the following sections we will set up the Opacity output for the material, this part of the graph affect the material in two ways.
+		</P>
+		<p class="description">1.) It controls teh amount of subsurface scattering that occurs on the surfae of the mesh</p>
+		<p class="description">2.) With translucency enabled,it controls how opaque/Translucent the material is.</p>
+		
+		<p class="description">So, this will affect how the Opacity output is used depending on whether we enable translucency or not</p>
+		<p class="highlight">(Note: The translucent version of the material is quite expensive, use carefully, ideally any objects that use this shader should mip out to a cheaper version of the material quickly)</p>
+		
+		<p class="description">
+It is important to note that Opacity serves two purposes in this material, since our material uses a subsurface shading model, the opacity controls how much subsurface scattering happens on the surface of the object, in the opacity map, white areas = more scattering black areas= less scattering. 
+   	   </p>
+	   
+	   <p class="description">With translucency on the other hand, white areas = opaque, black areas = completely transparent.  We need to keep this in mind as we build the opacity graph, so that we adress both these needs correctly</p>
+	   
+	   
+	   <p class="description">This first section just makes a basic mask using the texture we created earlier, but we also add some fresnel, so that the edges of the object do not become completely transparent as this can make the object feel floaty, and not very grounded in the world. </p>	
+	   
+	   <A HREF="img/Opacity.PNG"><img src="img/Opacity.PNG" width="1024" alt="" border="0" class="portrait"></A>
+	   
+	   <p class="description">If you preview the node commented as opacity, you’ll see something like this:</p>
+	   
+	   <A HREF="img/Opacity-SubsurfaceMaskGif.gif"><img src="img/Opacity-SubsurfaceMaskGif.gif" width="256" alt="" border="0" class="portrait"></A>
+	   
+	   <H4 class="minorheading">Part 2: Camera Distance Mask</H4>
+	   <p class="description">Here we set up  a camera distance based mask, so that the translucency becomes visible only when we are closer than a specified distance from the object (in thi s case 512 units). 
+This was a personal choice for me, I didn’t like the way objects looked translucent from afar and wanted it to happend only when the viewer was close to the object.</p>
+	 	<A HREF="img/Camera_Distance.PNG"><img src="img/Camera_Distance.PNG" width="756" alt="" border="0" class="portrait"></A>
+		
+		<p class="description">Here’s a gif showing what this network does, As you can see, the mask gets darker(i.e more transparent) the closer the camera is to the object.</p>
+		<A HREF="img/CameraMask.gif"><img src="img/CameraMask.gif" width="256" alt="" border="0" class="portrait"></A>
+		
+		<H4 class="minorheading">Final Opacity Mask Blending</H4>
+		<p class="description">In this part we bring together all the previous masks we made and blend them together to get the final output that goes into the Opacity Input of the material:</p>
+		<A HREF="img/OpacityMask_Blending.PNG"><img src="img/OpacityMask_Blending.PNG" width="756" alt="" border="0" class="portrait"></A>
+		<BR>
+		
+		<p class="description">If you preview the output of all these blends, it will look something like this. </p>
+		<A HREF="img/Opacity_Mask_Gif.gif"><img src="img/Opacity_Mask_Gif.gif" width="256" alt="" border="0" class="portrait"></A>
+		
+		</div>
+		<div class="subsection">
+		<H4 class="subheading">BaseColor Pass</H4><BR><BR>
+		<p class="description">The section below shows how we combine all the masks we have created in the previous sections to make the basecolor pass for the material. I used Adobe’ Kuler to pick an Analogous Color palette of light and deep blues, we expose all these colors as Texture Parameters so that it can be tweaked to any artists desires. I’ve commented which Mask goes to which lerp node.</p>
+		<A HREF="img/ColorPalette.PNG"><img src="img/ColorPalette.PNG" width="512" alt="" border="0" class="portrait"></A>
+		<BR><BR>
+		<p class="description">In the end we run everything through a Fuzzy shading Material Function, it works very similar to a fresnel but we are able to control the core darkness and the edge brightness, this function was commonly used when creating moss, cloth(before th release of the new shading model) and grass materials, but it provides an effect that I think works welll with Ice as well.</p>
+		
+		<A HREF="img/Final_Color_Comp.PNG"><img src="img/Final_Color_Comp.PNG" width="1024" alt="" border="0" class="portrait"></A>
+		
+		<p class="description">If you preview the fuzzy shading node you will see something that looks like this. The output from this FuzzyShading Node will go into the BaseColor input of the material. This result will also be used to create the subsurface color in the next section.  </p>
+		<A HREF="img/FinalColorPreview.gif"><img src="img/FinalColorPreview.gif" width="256" alt="" border="0" class="portrait"></A>
+		
+		</div>
+		
+		<!-- Subsurface Color Section -->
+		<div class="subsection">
+		<H4 class="subheading">Subsurface Color</H4>
+		<p class="description">The subsurface color output is generated by multiplying the Final Color Output with a parameterized color hue, and scaling factor to control how bright the color is. the output of this multiply node will go into the materials subsurface color input.</p>
+		<A HREF="img/SubSurface_Color.PNG"><img src="img/SubSurface_Color.PNG" width="756" alt="" border="0" class="portrait"></A>
+		</div>
+		
+		<!-- Normal Map -->
+		<div class="subsection">
+		<H4 class="subheading">Normal Map</H4>
+		<p class="description">For the materials normal, the setup is simple, we use the normal texture, with uv coordinates from the Surface Masks section, we also add a static switch parameter to control whether we want to combine it with a baked object normal map. This option is made so that when we apply this material to an object with baked normal maps, we blend the ice normals with the objects baked normal map.</p>
+		<A HREF="img/NormalMap.PNG"><img src="img/NormalMap.PNG" width="512" alt="" border="0" class="portrait"></A>
+		</div>
+		
+		<!-- Normal Map -->
+		<div class="subsection">
+		<H4 class="subheading">Performance, optimization/Final Thoughts</H4>
+		<p class="description">When you create an instance of this material, you will have the option, of using it as a either a translucent-Subsurface material or as an opaque subsurface material. Using the translucency is quite expensice and ideally you’d want to mip to a cheaper material pretty quickly. The opaque-subsurface version on the other hand is not as beefy and is quite performant.</p>	
+	  	<BR><BR>
+		<p class="description">If you look at the shader complexity comparison between a <B>transparent-subsurface</B> and an <B>Opaque-subsurface</B> version of the material you will there is quite a big difference. For proper estimation of performance of course you want to use the GPU profiler to get accurate information on exactly what is going on in the scene.</p>
+		<A HREF="img/Shader.jpg"><img src="img/Shader.jpg" width="756" alt="" border="0" class="portrait"></A>
+		<A HREF="img/ShaderComplexity.jpg"><img src="img/ShaderComplexity.jpg" width="756" alt="" border="0" class="portrait"></A><A HREF="img/Translucent_Subsurface.PNG"><img src="img/Translucent_Subsurface.PNG" width="756" alt="" border="0" class="portrait"></A>
+		<A HREF="img/Opaque_Subsurface.PNG"><img src="img/Opaque_Subsurface.PNG" width="756" alt="" border="0" class="portrait"></A>
+		
+		<p class="description">The image below shows all the parameters that are exposed to the material instance, these settings can be tweaked to achieve different looks with the same material.</p>
+		<A HREF="img/Parameters.PNG"><img src="img/Parameters.PNG" width="512" alt="" border="0" class="portrait"></A>
+		<BR><BR><BR>
+		<div class="centered">
+		<p class="description"><B>Thank you for reading and I hope you find this useful!Cheers!<B></p>
+		</div>
+<BR>
+<BR>
+
+</BODY>
+</HTML>
